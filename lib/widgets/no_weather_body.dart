@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class NoWeatherBody extends StatelessWidget {
   const NoWeatherBody({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -16,13 +16,13 @@ class NoWeatherBody extends StatelessWidget {
             Text(
               'there is no weather 😔 start',
               style: TextStyle(
-                fontSize: 30,
+                fontSize: 25,
               ),
             ),
             Text(
               'searching now 🔍',
               style: TextStyle(
-                fontSize: 30,
+                fontSize: 25,
               ),
             )
           ],
